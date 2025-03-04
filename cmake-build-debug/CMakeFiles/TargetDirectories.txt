@@ -1,0 +1,3 @@
+/home/armando-albornoz/CLionProjects/hw1_comp_geo_problem_1/cmake-build-debug/CMakeFiles/hw1_comp_geo_problem_1.dir
+/home/armando-albornoz/CLionProjects/hw1_comp_geo_problem_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/armando-albornoz/CLionProjects/hw1_comp_geo_problem_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

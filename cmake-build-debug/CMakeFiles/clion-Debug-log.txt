@@ -1,0 +1,41 @@
+/snap/clion/326/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/326/bin/ninja/linux/x64/ninja -G Ninja -S /home/armando-albornoz/CLionProjects/hw1_comp_geo_problem_1 -B /home/armando-albornoz/CLionProjects/hw1_comp_geo_problem_1/cmake-build-debug
+-- Using header-only CGAL
+-- Targeting Ninja
+-- Using /usr/bin/c++ compiler.
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupBoost.cmake:20 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupCGALDependencies.cmake:48 (include)
+  /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake:168 (include)
+  CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Boost include dirs: /usr/include
+-- Boost libraries:    
+-- Using gcc version 4 or later. Adding -frounding-math
+-- Build type: Debug
+-- USING CXXFLAGS = ' -g'
+-- USING EXEFLAGS = ' '
+CMake Warning at /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake:93 (message):
+  =======================================================================
+
+  CGAL performance notice:
+
+  The variable CMAKE_BUILD_TYPE is set to "Debug".  For performance reasons,
+  you should set CMAKE_BUILD_TYPE to "Release".
+
+  Set CGAL_DO_NOT_WARN_ABOUT_CMAKE_BUILD_TYPE to TRUE if you want to disable
+  this warning.
+
+  =======================================================================
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake:163 (CGAL_hook_check_CMAKE_BUILD_TYPE)
+  CMakeLists.txt:DEFERRED
+
+
+-- Configuring done (0.9s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/armando-albornoz/CLionProjects/hw1_comp_geo_problem_1/cmake-build-debug
